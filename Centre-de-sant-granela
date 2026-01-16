@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Attestation – Centre de Santé Granela</title>
+  <style>
+    body{
+      font-family: Arial;
+      background:#f0f0f0;
+      padding:20px;
+    }
+    .attestation{
+      background:#fff;
+      max-width:800px;
+      margin:auto;
+      padding:30px;
+      border:2px solid #000;
+    }
+    h1,h2{text-align:center}
+    .ligne{margin:10px 0}
+    .signature{
+      margin-top:40px;
+      display:flex;
+      justify-content:space-between;
+    }
+  </style>
+</head>
+<body>
+
+<div class="attestation">
+  <h1>RÉPUBLIQUE DÉMOCRATIQUE DU CONGO</h1>
+  <h2>CENTRE DE SANTÉ GRANELA</h2>
+
+  <p class="ligne"><strong>N° Attestation :</strong> CMG/2026/001</p>
+  <p class="ligne"><strong>Nom :</strong> ______________________</p>
+  <p class="ligne"><strong>Prénom :</strong> ______________________</p>
+  <p class="ligne"><strong>Date :</strong> ______________________</p>
+
+  <p>
+    La présente attestation est délivrée pour servir et valoir ce que de droit.
+  </p>
+
+  <div class="signature">
+    <div>Cachet du centre</div>
+    <div>Signature du médecin</div>
+  </div>
+</div>
+
+</body>
+</html>
